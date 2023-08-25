@@ -4,6 +4,7 @@ import './App.css';
 import ReduxInput from './components/input/ReduxInput';
 import Mult from './components/Mult/Mult';
 import Subt from './components/Subt/Subt';
+import Addition from './components/Addition/Addition';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <ReduxInput/>
       <Mult />
       <Subt/>
+      <Addition/>
     </div>
   );
 }
