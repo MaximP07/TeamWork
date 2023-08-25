@@ -9,7 +9,7 @@ const Division = () =>{
 
     return (
         <div className="Division">
-            <MathOperation operation="Division"/>
+            
             <p>{divide}</p>
         </div>
     );
